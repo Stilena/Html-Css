@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ius.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your reservation form</title>
+</head>
+<body>
+    <form  action="https://image.shutterstock.com/image-vector/mosaic-thumb-icon-red-reservation-260nw-1633546399.jpg">
+            <fieldset>
+         <h1>
+             Reservation form
+            </h1>
+        
+         <h3>
+             Fill all fields!
+            </h3>
+            <p class="personality">
+                First Name:<input type="TEXT" size="20" maxlength="99" required /> 
+                Second Name:<input type="TEXT" size="20" maxlength="99" required/> 
+                 Last Name:<input type="TEXT" size="20" maxlength="99" required />
+                </p>
+            <p>
+                City:<input type="TEXT" size="12" maxlength="99" required/>
+                Adress:<input type="TEXT" size="12" maxlength="99" required/>
+                Post code:<input type="TEXT" size="12" maxlength="99" required/>
+        </p>
+            <p>
+                Mobile number:<input type="TEXT" size="12" maxlength="14" placeholder="123-45-678"required/>
+                Email:<input type="TEXT" size="12" maxlength="99" required/>
+            </p><br>
+            <p>
+                Arrival Date:<input type="text" size="20" maxlength="99"required />
+                Departure Date:<input type="text" size="20" maxlength="99"required />
+        </p>
+           <p>
+                Number of adults:<input type="number" size="20" maxlength="99"required /> 
+         </p>
+         <p>
+             Number of children:<input type="number" size="20" maxlength="99" required/>
+        </p><br>
+            <p class="room" >Room type:</p>
+            <input type="radio" name="Room" value="single"  required>single room<br>
+            <input type="radio" name="Room" value="double">double room<br>
+            <input type="radio" name="Room" value="apartment">apartment<br>
+            <input type="radio" name="Room" value="studio">studio<br>
+            <input type="radio" name="Room" value="vip">vip room<br>
+            
+            <h4>Do you want parking about your vahicles?</h4>
+            <input type="radio" name="Parking" value="no"  required>no<br>
+            <input type="radio" name="Parking" value="yes">yes 
+            <p>Number of vihacles:<input type="number" size="20" maxlength="99" /></p>
+            <p class="payment" >Method of payment:</p>
+            <input type="radio" name="payment" value="bank transfer"  required>Bank transfer<br>
+            <input type="radio" name="payment" value="cash on delivery">Cash on delivery<br>
+            <p>Special requests: <input type="TEXT" width="50" height="150" maxlength="100" /></p>
+            
+            <p >Click here to submit <input class="button" type="submit" value="Send"></p>  
+             </fieldset>
+    
+        </form>
+   
+    
+</body>
+</html>
